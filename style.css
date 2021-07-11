@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Varela Round", sans-serif;
+}
+.items {
+  display: flex;
+  list-style: none;
+  width: 33vw;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.item {
+  cursor: pointer;
+}
+.items .item2 {
+  border-bottom: 1px solid #41c131;
+}
+
+.navbar img {
+  margin: 0.5em 6em;
+}
+.icons {
+  width: 5vw;
+  margin-right: 4em;
+  display: flex;
+  justify-content: space-between;
+}
+.icons-item {
+  cursor: pointer;
+}
+
+.tagline {
+  background-image: url("./images/Banner-01@1X.png");
+  height: 400px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tagline p {
+  font-size: 3em;
+  font-family: "Varela Round", sans-serif;
+  display: inline-block;
+  width: 310px;
+  font-weight: 800;
+  position: absolute;
+  right: 279px;
+  top: 200px;
+}
+p .color {
+  color: #41c131;
+}
+/* Second box */
+.secondBox {
+  height: 900px;
+}
+.inside-page {
+  display: block;
+  margin: 2em 3em;
+  color: #929292;
+}
+
+.secondBox .god {
+  height: 211px;
+  width: 415px;
+  position: relative;
+  top: 114px;
+  left: 523px;
+}
+.secondBox .back {
+  display: inline-block;
+  position: relative;
+  z-index: -999;
+  left: 181px;
+}
+
+.secondBox h1 {
+  text-align: center;
+  color: #535d51;
+}
+.secondBox p {
+  color: #535d51;
+  font-size: 20px;
+}
+.secondBox .tag {
+  position: relative;
+  bottom: 330px;
+}
+.secondBox .color {
+  color: #41c131;
+}
+.secondBox .story {
+  color: #383d37;
+}
+
+.secondBox .story-about {
+  display: inline-block;
+
+  color: #383d37;
+  width: 80%;
+  margin: 10px 135px;
+}
+/* third Container */
+.thirdContainer {
+  height: 700px;
+}
+.thirdContainer-items {
+  margin-left: 5em;
+}
+.thirdContainer-items img {
+  margin-left: 2em;
+}
+.thirdContainer p {
+  color: #383d37;
+  width: 90%;
+  display: inline-block;
+  margin: 1em 4.3em;
+  font-size: 18px;
+}
+
+/* fourth container */
+.fourthContainer {
+  background-image: url("./images/Path\ 221@1X.png");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.fourthContainer img {
+  position: relative;
+  left: 480px;
+  top: 140px;
+}
+.fourthContainer div {
+  color: #9e9e9e;
+  width: 258px;
+}
+.fourthContainer h1 {
+  color: #383d37;
+}
+.fourthContainer span {
+  color: #41c131;
+}
+#box1 {
+  position: relative;
+  left: 200px;
+  top: 250px;
+}
+#box1,
+#box2 p {
+  color: #383d37;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+#box2 {
+  position: absolute;
+  right: 50px;
+}
+
+.fifthContainer {
+  height: 630px;
+  margin-top: 20px;
+  background-color: #e3f5dd;
+}
+.fifthContainer h1 {
+  text-align: center;
+  color: #383d37;
+  display: inline-block;
+  position: relative;
+  left: 42%;
+  top: 3.5%;
+}
+.fifthContainer .color {
+  color: #41c131;
+}
+.firstBox {
+  display: flex;
+  width: 800px;
+
+  margin: 2em 20em;
+  align-items: center;
+}
+.firstBox,
+img {
+  border-radius: 10px;
+}
+.firstbox-details {
+  margin-left: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #707070;
+}
+.firstbox-details span {
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.firstbox-details p {
+  line-height: 20px;
+}
+.secondbox {
+  display: flex;
+  width: 800px;
+  margin: 2em 20em;
+  align-items: center;
+}
+.secondbox-details {
+  margin-right: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #707070;
+}
+.secondbox-details span {
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.secondbox-details p {
+  line-height: 20px;
+}
+/* footer */
+.footer {
+  height: 200px;
+  background-color: #3d3d3d;
+  color: #f1f1f1;
+  font-family: "Varela Round", sans-serif;
+}
+.footer .morePage {
+  /* border: 1px solid red; */
+  padding-top: 20px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 20%;
+  cursor: pointer;
+}
+.footer .moreIcons {
+  margin: 3em 35em;
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  cursor: pointer;
+}
+.footer .copyright {
+  text-align: center;
+}
